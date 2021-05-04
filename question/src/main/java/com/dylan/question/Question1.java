@@ -1,6 +1,5 @@
 package com.dylan.question;
 
-import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -8,7 +7,7 @@ public class Question1 {
     public static void main(String[] args) {
         System.out.println("Hello World!");
 
-        int result[] = twoSum(new int[]{1, 2, 3, 4}, 7);
+        int[] result = twoSum(new int[]{1, 2, 3, 4}, 7);
         System.out.println("" + result[0] + ", " + result[1]);
     }
 
