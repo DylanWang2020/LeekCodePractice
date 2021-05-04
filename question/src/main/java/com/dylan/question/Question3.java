@@ -17,7 +17,7 @@ public class Question3 {
         int max = 0;
         int len = s.length();
         HashMap<Character, Integer> map = new HashMap<>();
-        for (int i=0; i<len; ++i) {
+        for (int i = 0; i < len; ++i) {
             char c = s.charAt(i);
             if (map.containsKey(c)) {
                 left = Math.max(left, map.get(c) + 1);
